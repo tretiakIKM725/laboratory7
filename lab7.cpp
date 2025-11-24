@@ -14,11 +14,11 @@ int sumDiv(int n)
 
 int main()
 {
-  cout << "Всі дружні числа в інтервалі 1–100000 :\n ";
-  for (int k = 1; k <= 100000; k++)
+  cout << "Всі дружні числа в інтервалі 1–350 :\n ";
+  for (int k = 1; k <= 350; k++)
   {
     int b = sumDiv(k);
-    if (b > k && b <= 100000)
+    if (b > k && b <= 350)
     {
       if (sumDiv(b) == k)
       {
